@@ -1,2 +1,44 @@
 theme: jekyll-theme-minimal
 title: Marcos Salib blog
+
+
+
+
+author:
+  name: Marcos Salib
+  email: "marcossalib90@gmail.com"
+  github: marcosxx1x
+  linkedin: marcos-salib-318722196
+
+title-img: /1633288122718.jpg
+
+share-links-active:
+  google: true
+  github: true
+  linkedin: true
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+# Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
+link-tags: false
+
+# Exclude these files from production site
+exclude:
+  - extra_curriculum.md
+  - _config_.yml
+  - README.md
